@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Svet - Junior Developer">
+    <meta name="keywords" content="portfolio, personal website, junior developer, cyber security">
+    <meta name="author" content="Svet">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Svet | Junior Developer">
+    <meta property="og:description" content="Personal website of Svet - Junior Developer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://svet.dev">
+    <meta property="og:image" content="https://svet.dev/assets/profile.jpg">
+    
+    <title>Svet | Junior Developer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logo-d.png" type="image/png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style/style_debug.css">
+</head>
+<body>
+    <!-- funny -->
+    <div class="loading-screen" id="loadingScreen">
+      <div class="grain-effect"></div>
+      <img src=assets/logo-d.png alt="Why no work" class="loading-image">
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Svetlyi<span>.</span></a>
+                
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="themeToggle">
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </li>
+                </ul>
+                
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                  <h1>Greetings,<br><span>Svet</span> 'ere</h1>
+                    <h3>Junior Developer</h3>
+                    <p>Random ass dude learning coding and cyber sec, as well as being schizo with my studies and works.</p>
+                    
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn">Get In Touch</a>
+                        <a href="#portfolio" class="btn btn-outline">View My Work</a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <img src="assets/bismillah.png" alt="Svet">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/bismillah.png" alt="About Svet">
+                </div>
+                
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p><span>Svet</span>, <span>Svetlyi</span>, <span>Svetoslav</span>. Doesnt matter. I go by any. I'm a junior developer with a growing passion for coding and cyber sec as well as doing random fucking math studies for absolutely no fucking reason. Will it help me in life? Hell nah. I'm currently exploring various technologies and building my skills in web development and security fundamentals.</p>
+                    <p>My journey in tech started back when i was a little shit. I'm particularly interested in how technology can be used to solve real-world problems.</p>
+                    
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        
+                        <div class="skill-item">
+                            <h4>HTML/CSS</h4>
+                            <p>Building responsive and accessible web interfaces. Still kinda meh.</p>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <h4>Rust & Typescript</h4>
+                            <p>Curretly Learning.</p>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <h4>Cyber Security Basics</h4>
+                            <p>Learning about security principles and best practices</p>
+                        </div>
+                    </div>
+                    
+                    <!-- I might put a CV here, idfk -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="section-title">What I Do</h2>
+            <p class="text-center" style="max-width: 700px; margin: 0 auto 3rem;">Here are some of the areas I'm currently exploring and working on.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building and experimenting with websites using modern technologies.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security Learning</h3>
+                    <p>Studying cyber security fundamentals and best practices.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>Problem Solving</h3>
+                    <p>Working through coding challenges and puzzles to improve my skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="text-center" style="max-width: 700px; margin: 0 auto 3rem;">Here are some of my recent learning projects.</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="assets/bismillah.png" alt="Project 1" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Personal Website</h3>
+                        <p>My first attempt at building a responsive personal portfolio website. Hell fucking yeah. Thanks DeepSeek. Love ya chinese people. Shout out to my previous landlord!</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="assets/bismillah.png" alt="Project 2" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>The 4th Dimension Explained by me</h3>
+                        <p>Went a bit retarded with this small book. If yall want to read it, send me an email.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="assets/bismillah.png" alt="Project 3" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Security Tool</h3>
+                        <p>A basic password strength checker application. (WIP)</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section - I might add testimonials here later, idfk -->
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="text-center" style="max-width: 700px; margin: 0 auto 3rem;">Want to connect or have questions? Feel free to reach out!</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:svetlyi223@gmail.com"><span>svetlyi</span>223@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/IC0SPT" target="_blank">github.com/IC0SPT</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Twitter</h3>
+                            <a href="https://twitter.com/svet" target="_blank">nuh uh</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-hashtag"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>SHARP</h3>
+                            <a href="https://twoblade.com" target="_blank">svet#twoblade.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+              <div class="footer-logo">
+                <!-- Svet<span>.</span> -->
+                <center><img src="assets/logo-d.png" width="9%" id="footerLogo"></center>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; <span id="year"></span> Svetlyi. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script>
+        window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        }
+        
+        window.addEventListener('load', function() {
+          const loadingScreen = document.getElementById('loadingScreen');
+          const loadingImage = document.querySelector('.loading-image');
+          setTimeout(function() {
+            loadingImage.classList.add('show');
+          }, 500);
+          setTimeout(function() {
+            loadingScreen.classList.add('fade-out');
+            setTimeout(function() {
+              loadingScreen.style.display = 'none';
+              document.body.classList.add('loaded');
+            }, 800);
+          }, 3000);
+        });  
+      // Current Year for Copyright
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // Mobile Navigation
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.innerHTML = navLinks.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('light-mode');
+            const footerLogo = document.getElementById("footerLogo");
+            // Change icon based on current mode
+            if (body.classList.contains('light-mode')) {
+                themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+                footerLogo.src = 'assets/logo-l.png';
+            } else {
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+                footerLogo.src = 'assets/logo-d.png';
+            }
+        });
+        
+        // Set initial theme icon + ft-logo. (soon nav bar)
+        if (body.classList.contains('light-mode')) {
+            themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+            } else {
+            themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        }
+
+        // Back to Top Button
+        const backToTopBtn = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            backToTopBtn.classList.toggle('active', window.scrollY > 300);
+        });
+        
+        backToTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Form Submission
+        const contactForm = document.getElementById('contactForm');
+        
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                alert('Thank you for your message! I will get back to you soon.');
+                this.reset();
+            });
+        }
+    </script>
+</body>
+</html>
