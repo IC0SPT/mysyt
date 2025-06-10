@@ -237,7 +237,7 @@
             transition: var(--transition);
         }
 
-        .theme-toggle:focus {
+        .theme-toggle:hover {
             color: var(--accent-color);
             transform: rotate(30deg);
         }
